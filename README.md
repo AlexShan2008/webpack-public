@@ -1,8 +1,6 @@
 ## 1. 模块化
 模块化是指把一个复杂的系统分解到多个模块以方便编码。  
 
-
-
 ###　1.1 命名空间
 开发网页要通过命名空间的方式来组织代码
 - 命名空间冲突，两个库可能会使用同一个名称
@@ -118,7 +116,7 @@ ES6模块虽然是终极模块化方案，但它的缺点在于目前无法直�
 - 自动发布：更新完代码后，自动构建出线上发布代码并传输给发布系统。
 
 
-## 3. Webpack
+## 3. Webpack(style-loader)
 Webpack 是一个打包模块化 JavaScript 的工具，在 Webpack 里一切文件皆模块，通过 Loader 转换文件，通过 Plugin 注入钩子，最后输出由多个模块组合成的文件。Webpack 专注于构建模块化项目。
 
 一切文件：JavaScript、CSS、SCSS、图片、模板，在 Webpack 眼中都是一个个模块，这样的好处是能清晰的描述出各个模块之间的依赖关系，以方便 Webpack 对模块进行组合和打包。 经过 Webpack 的处理，最终会输出浏览器能使用的静态资源。
@@ -271,3 +269,11 @@ console.log('compile sucessfully!');
 
 
 ```# webpack-public
+
+
+
+// 本地安装q
+```
+npm init -y
+npm install webpack webpack-cli -D
+```
